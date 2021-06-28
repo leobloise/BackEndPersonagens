@@ -1,0 +1,20 @@
+{
+    "name": "leona/crud",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "psr/http-message": "^1.0",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+        "rmccue/requests": "^1.8"
+    },
+    "autoload":{
+        "psr-4": {
+            "leona\\crud\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:5000"
+    }
+}
